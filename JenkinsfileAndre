@@ -6,7 +6,7 @@ pipeline {
             steps {
                 script{
                   echo 'Executando o primeiro teste'
-                  def response = httpRequest (url:"https://bcb8-193-137-229-131.ngrok-free.app/api/testAutomation/Test/Teste1")
+                  def response = httpRequest (url:"https://9f2d-193-137-229-131.ngrok-free.app/api/testAutomation/Test/Teste1")
                   echo "resultado do teste 1: ${reponse.content}"
                }
             }
